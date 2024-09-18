@@ -10,7 +10,7 @@ app.use(cors()); // Use cors middleware
 const COHERE_API_KEY = 'BR9hfPf6n7V8nzO7QNh336UtZ94cym9gtdIxqBWm'; // Get from Cohere
 const SPOONACULAR_API_KEY = '8e1ba6d0e4644edabd75a6f30c4ea6e8'; // Get from Spoonacular
 
-const COHERE_API_URL = 'https://api.cohere.ai/v1/embeddings';
+const COHERE_API_URL = 'https://api.cohere.com/v1/embed';
 
 // Define an endpoint to perform the search
 app.post('/search', async (req, res) => {
